@@ -12,7 +12,6 @@ The project requirements were to:
 - [x] Create a Docusaurus project with Node.js.
 - [x] Edit the home, about, and contact pages.
 - [x] Customize theme
-- [x] Add custom plugins (search feature!)
 - [x] Build the site and deploy to GitHub Pages
 
 :::info[**The Goal**]
