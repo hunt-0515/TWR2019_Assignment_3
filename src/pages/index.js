@@ -15,14 +15,6 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
       </div>
     </header>
   );
@@ -36,7 +28,18 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+	<div className="main">
+		<h1> Welcome to my Markdown site </h1>
+		<p>This site was developed for the course TWR2019 - Developing Technical Documentation at Algonquin College, 2025. It is built using Docusaurus and Markdown, and deployed to GitHub Pages.</p>
+		<p>Click the buttons below to find:
+			<ul><li>My basic Markdown guide.</li><li>Information about this site</li><li>How you can get in touch</li></ul>
+		Or select the items at the top of the page.
+		</p>
+		<br /><hr /><br />
+		<h1> Key Pages </h1>
+		<br />
+		<HomepageFeatures />
+	</div>
       </main>
     </Layout>
   );

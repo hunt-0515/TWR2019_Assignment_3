@@ -4,47 +4,49 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Using Markdown',
+    url: '/docs/markdown',
+    Svg: require('@site/static/img/md.svg').default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <p>
+		Visit the Markdown reference page
+      </p>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'About this site',
+    url: '/docs/about',
+    Svg: require('@site/static/img/about.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <p>
+         Learn more about why I created this site.
+      </p>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Contact',
+    url: '/docs/contact',
+    Svg: require('@site/static/img/contact.svg').default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <p>
+         Get in touch about this site.
+      </p>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, url, description}) {
   return (
     <div className={clsx('col col--4')}>
+<a href={url}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Heading as="h2">{title}</Heading>
+	{description} 
       </div>
+</a>
     </div>
   );
 }
