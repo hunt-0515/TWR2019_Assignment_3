@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Using Markdown',
-    url: 'docs/markdown',
+    url: '/TWR2019_Assignment_3/docs/markdown',
     Svg: require('@site/static/img/md.svg').default,
     description: (
       <p>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'About this site',
-    url: 'docs/about',
+    url: '/TWR2019_Assignment_3/docs/about',
     Svg: require('@site/static/img/about.svg').default,
     description: (
       <p>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Contact',
-    url: 'docs/contact',
+    url: '/TWR2019_Assignment_3/docs/contact',
     Svg: require('@site/static/img/contact.svg').default,
     description: (
       <p>
