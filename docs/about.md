@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # What is this site about?
 
-This site was built for the course TWR2019 Developing Technical Communication. It was developed using Docusaurus, and its pages are written in [Markdown](markdown).
+This site was built for the course TWR2019 Developing Technical Communication. It was developed using Docusaurus, and its pages are written in [Markdown](/docs/markdown).
 
 The project requirements were to:
 
