@@ -12,7 +12,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'My Markdown Guide',
   favicon: 'img/favicon.ico',
-  plugins: ["@cmfcmf/docusaurus-search-local"],
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
