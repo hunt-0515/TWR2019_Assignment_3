@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Using Markdown',
-    url: '@site/docs/markdown',
+    url: 'docs/markdown',
     Svg: require('@site/static/img/md.svg').default,
     description: (
       <p>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'About this site',
-    url: '@site/docs/about',
+    url: 'docs/about',
     Svg: require('@site/static/img/about.svg').default,
     description: (
       <p>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Contact',
-    url: '@site/docs/contact',
+    url: 'docs/contact',
     Svg: require('@site/static/img/contact.svg').default,
     description: (
       <p>
